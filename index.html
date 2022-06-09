@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>Console Test</title>
+    </head>
+    <body>
+        <h1>open console</h1>
+        <h1>press F12</h1>
+        <h1>right click- Inspect</h1>
+        <style>
+            h1{
+                font-family: monospace;
+            }
+        </style>
+
+        <script>
+            console.log("HI i am owen");
+
+            console.error("uh-oh!");
+
+            var name_first = "Owen ";
+            var name_last = "Wang";
+
+            console.log(name_first);
+            console.log(name_last);
+
+            var full_name = name_first.concat(name_last);
+            console.log(full_name);
+
+            var namelength = full_name.length;
+            namelength = namelength - 1;
+            console.log("The length of my name is " + namelength);
+
+            var sentence = "I like code in vscode";
+            console.log(sentence);
+
+            var sentence_better = sentence.replace("code","coding");
+            console.log(sentence_better);
+
+            console.warn("warning be careful!!!!!!!!")
+
+            var lowercase = "vscode"
+            console.log(lowercase);
+            var big_lowercase = lowercase.toUpperCase();
+            console.log(big_lowercase);
+
+            var uppercase = "CODING"
+            console.log(uppercase);
+            var small_uppercase = uppercase.toLowerCase();
+            console.log(small_uppercase);
+
+            var math_calculate_one = Math.sqrt(65536);
+            console.log("The square root of 65536 is " + math_calculate_one)
+
+            var math_calculate_two = Math.sqrt(256);
+            console.log("The square root of 256 is " + math_calculate_two)
+
+            var math_calculate_three = Math.sqrt(16);
+            console.log("The square root of 16 is " + math_calculate_three)
+            
+            var math_calculate_four = Math.sqrt(4);
+            console.log("The square root of 4 is " + math_calculate_four)
+
+            var math_calculate_five = Math.sqrt(2);
+            console.log("The square root of 2 is " + math_calculate_five)
+
+            console.warn("warning again be careful again!!!!!!!!!!!!!!!")
+
+            var any_name = Math.max(142857, 142857.001);
+            console.log(any_name)
+
+            var any_name_again = Math.min(142857.005, 142857.001);
+            console.log(any_name_again)
+
+            var any_variable = Math.pow(math_calculate_five, 2)
+            any_variable = Math.round(any_variable)
+            console.log(any_variable)
+
+            var any_variable_two = Math.pow(2, 2)
+            any_variable = Math.round(any_variable_two)
+            console.log(any_variable_two)
+
+            var any_variable_three = Math.pow(4, 2)
+            any_variable = Math.round(any_variable_three)
+            console.log(any_variable_three)
+
+            var any_variable_four = Math.pow(16, 2)
+            any_variable = Math.round(any_variable_four)
+            console.log(any_variable_four)
+
+            var any_variable_five = Math.pow(256, 2)
+            any_variable = Math.round(any_variable_five)
+            console.log(any_variable_five)
+
+            var number_one = 1592784;
+            var number_two = 4392639;
+            var answer = Number(number_one)+Number(number_two);
+            console.log(answer)
+
+            console.log("index.html:99")
+            console.log("index.html:100")
+
+            var pi = Math.PI
+            console.log(pi)
+
+            var pi_long = Number(3.141592653589793238462643383795019712884)
+            console.log(pi_long)
+        </script>
+    </body>
+</html>
